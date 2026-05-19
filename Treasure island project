@@ -1,4 +1,4 @@
-print(r'''
+print('''
 *******************************************************************************
           |                   |                  |                     |
  _________|________________.=""_;=.______________|_____________________|_______
@@ -22,21 +22,21 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("welcome to the treasure island ! your mission is to find the treasure")
 print('you are at the entrance  please choose "left" or "right"')
-option1=input("left or rigt")
+option1=input("left or rigt\n")
 if option1=="right":
     print("you fellinto the hole\n Game over!!")
 else:
-    option2=input("swim or wait")
+    option2=input("you are at the river. what you want to do?'swim' or 'wait'\n")
 if option2=="swim":
     print("attacked by trout\n Game over!!")
 else:
-    print("choose the colour of the door you want to enter")
-    option3=input("red or yellow or blue")
+    print("choose the colour of the door you want to enter 'red' or 'blue' or 'yellow'")
+    option3=input("red or yellow or blue\n")
 if option3=="red":
     print("burned in fire\n Game over!!")
 elif option3=="blue":
     print("eaten by bees\n Game ovr!")
 elif option3=="yellow":
-    print("you won the game")
+    print('congratulations!!"you won the game"')
 else:
     print("you lost")
